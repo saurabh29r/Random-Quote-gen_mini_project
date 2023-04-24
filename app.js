@@ -1,6 +1,7 @@
 let jokeParaEl = document.getElementById("jokeText");
 let BtnEl = document.getElementById("jokeBtn");
 let spinnerEl = document.getElementById("spinner");
+// here we have to undersand that fetch required two elements
 
 function jokes() {
     jokeParaEl.classList.add("d-none");
