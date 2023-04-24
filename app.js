@@ -24,6 +24,7 @@ function jokes() {
 
 }
 
+// this button is use to add the event , click is event and jokes is call back function //
 
 BtnEl.addEventListener("click", jokes);
 
