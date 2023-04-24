@@ -10,7 +10,7 @@
     font-size: 24px;
     font-weight: 700;
 }
-
+/* this button is used as a event listner */
 .joke-button {
     color: #6c8bd8;
     background-color: #ffffff;
