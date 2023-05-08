@@ -1,10 +1,10 @@
-let jokeParaEl = document.getElementById("jokeText");
-let BtnEl = document.getElementById("jokeBtn");
-let spinnerEl = document.getElementById("spinner");
+let jokeParaEl = document.getElementById("jokeText"); // the input text id got here just for accessing the value
+let BtnEl = document.getElementById("jokeBtn"); // this is button id for adding the evenets for button also call back function required.
+let spinnerEl = document.getElementById("spinner");// this will gives the id of bootstrap spinnner element. 
 // here we have to undersand that fetch required two elements
 
 function jokes() {
-    jokeParaEl.classList.add("d-none");
+    jokeParaEl.classList.add("d-none"); 
     spinnerEl.classList.remove("d-none");
     let options = {
         method: "GET"
